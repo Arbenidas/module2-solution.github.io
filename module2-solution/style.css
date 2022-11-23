@@ -1,0 +1,142 @@
+#menu{
+	text-align: center;
+}
+
+
+@media(max-width: 991px ) and (min-width:768px ){
+	
+		#caja1{
+		
+		padding: 1%;
+		margin: 1%;
+		width: 45.5%;
+		background: blueviolet ;
+		border: 1px solid black;
+		float: left;
+
+		}
+			#caja2{
+		
+		padding: 1%;
+		margin: 1%;
+		width: 45.5%;
+		background: blueviolet ;
+		border: 1px solid black;
+		float: left;
+
+		}
+			#caja3{
+
+		clear: left;
+		padding: 1%;
+		margin: 1%;
+		width: 95.3%;
+		background: blueviolet ;
+		border: 1px solid black;
+		
+		}
+		
+
+	.h1{
+		position: relative;
+		text-align:center;
+		border: 1px solid black;
+		width: 30%;
+
+		}
+
+
+
+
+	}
+
+
+
+@media(min-width:992px){
+
+	#caja1{
+		
+		padding: 1%;
+		margin: 1%;
+		width: 29.1%;
+		background: #ff5533 ;
+		border: 1px solid black;
+		float: left;
+
+		}
+			#caja2{
+		
+		padding: 1%;
+		margin: 1%;
+		width: 29.1%;
+		background: #ff5533 ;
+		border: 1px solid black;
+		float: left;
+
+		}
+			#caja3{
+		
+		padding: 1%;
+		margin: 1%;
+		width: 29.1%;
+		background: #ff5533 ;
+		border: 1px solid black;
+		float: left;
+
+		}
+
+	.h1{
+		position: relative;
+		text-align:center;
+		border: 1px solid black;
+		width: 30%;
+
+		}
+
+}
+
+@media (max-width:767px){
+
+	#caja1{
+		
+		padding: 1%;
+		margin: 1%;
+		width: 95.3%;
+		background: grey ;
+		border: 1px solid black;
+		
+
+		}
+			#caja2{
+		
+		padding: 1%;
+		margin: 1%;
+		width: 95.3%;
+		background: grey ;
+		border: 1px solid black;
+	
+
+		}
+			#caja3{
+		
+		padding: 1%;
+		margin: 1%;
+		width: 95.3%;
+		background: grey ;
+		border: 1px solid black;
+		
+
+		}
+
+	.h1{
+		position: relative;
+		text-align:center;
+		border: 1px solid black;
+		width: 30%;
+
+		}
+
+}
+
+
+}
