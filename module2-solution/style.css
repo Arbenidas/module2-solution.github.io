@@ -1,106 +1,158 @@
-#menu{
+
+/*standar*/
+@media(min-width:992px){
+
+	#menu{
+	margin-top: 10%;
+	margin-bottom: 10%;
 	text-align: center;
 }
 
+	#caja1{
+		margin: 1%;
+		padding-bottom: 1%;
+		padding-left:1%;
+		padding-right:1%;
+		padding-top: 0px;
+		width: 29.1%;
+		background: grey ;
+		border: 1px solid black;
+		float: left;
+		}
+			#caja2{
+		margin: 1%;
+		padding-bottom: 1%;
+		padding-left:1%;
+		padding-right:1%;
+		padding-top: 0px;
+		width: 29.1%;
+		background: grey ;
+		border: 1px solid black;
+		float: left;
+		}
+			#caja3{
+		
+		margin: 1%;
+		padding-bottom: 1%;
+		padding-left:1%;
+		padding-right:1%;
+		padding-top: 0px;
+		width: 29.1%;
+		background: grey ;
+		border: 1px solid black;
+		float: left;
 
+		}
+
+	.divbox{
+		margin-top: -1px;
+		position: relative;
+		border: 1px solid black;
+		width: 27.4%;
+		height: 32px;
+		left: 75.7%;
+		}
+
+
+		.h1{
+			text-align: center;
+			margin: 2px;
+			
+		}
+	}
+/*midd*/
 @media(max-width: 991px ) and (min-width:768px ){
 	
+	#menu{
+	margin-top: 10%;
+	margin-bottom: 10%;
+	text-align: center;
+}
 		#caja1{
 		
-		padding: 1%;
 		margin: 1%;
+		padding-bottom: 1%;
+		padding-left:1%;
+		padding-right:1%;
+		padding-top: 0px;
 		width: 45.5%;
-		background: blueviolet ;
+		background: grey ;
 		border: 1px solid black;
 		float: left;
 
 		}
 			#caja2{
 		
-		padding: 1%;
 		margin: 1%;
+		padding-bottom: 1%;
+		padding-left:1%;
+		padding-right:1%;
+		padding-top: 0px;
 		width: 45.5%;
-		background: blueviolet ;
+		background: grey ;
 		border: 1px solid black;
 		float: left;
 
 		}
 			#caja3{
-
+		margin: 1%;
+		padding-bottom: 1%;
+		padding-left:1%;
+		padding-right:1%;
+		padding-top: 0px;
 		clear: left;
 		padding: 1%;
 		margin: 1%;
 		width: 95.3%;
-		background: blueviolet ;
+		background: grey ;
 		border: 1px solid black;
 		
 		}
 		
 
-	.h1{
+	.divbox{
 		position: relative;
-		text-align:center;
 		border: 1px solid black;
-		width: 30%;
+		width: 26%;
+		height: 30px;
+		left: 75.8%;
+		}
+
+		#divbox3{
+			margin-top: -9px;
+		position: relative;
+		border: 1px solid black;
+		width: 13%;
+		height: 30px;
+		left: 87.9%;
 
 		}
+
+
+		.h1{
+			text-align: center;
+			margin: 2px;
+		}
+	
 
 
 
 
 	}
-
-
-
-@media(min-width:992px){
-
-	#caja1{
-		
-		padding: 1%;
-		margin: 1%;
-		width: 29.1%;
-		background: #ff5533 ;
-		border: 1px solid black;
-		float: left;
-
-		}
-			#caja2{
-		
-		padding: 1%;
-		margin: 1%;
-		width: 29.1%;
-		background: #ff5533 ;
-		border: 1px solid black;
-		float: left;
-
-		}
-			#caja3{
-		
-		padding: 1%;
-		margin: 1%;
-		width: 29.1%;
-		background: #ff5533 ;
-		border: 1px solid black;
-		float: left;
-
-		}
-
-	.h1{
-		position: relative;
-		text-align:center;
-		border: 1px solid black;
-		width: 30%;
-
-		}
-
-}
-
+/*small*/
 @media (max-width:767px){
 
+#menu{
+	margin-top: 10%;
+	text-align: center;
+}
 	#caja1{
-		
-		padding: 1%;
-		margin: 1%;
+		margin: 15% 1% 1%;
+		margin-bottom: 30px;
+		padding-bottom: 1%;
+		padding-left:1%;
+		padding-right:1%;
+		padding-top: 0px;
 		width: 95.3%;
 		background: grey ;
 		border: 1px solid black;
@@ -109,8 +161,12 @@
 		}
 			#caja2{
 		
-		padding: 1%;
-		margin: 1%;
+		margin: 1% 1% 1%;
+		margin-bottom: 30px;
+		padding-bottom: 1%;
+		padding-left:1%;
+		padding-right:1%;
+		padding-top: 0px;
 		width: 95.3%;
 		background: grey ;
 		border: 1px solid black;
@@ -119,8 +175,12 @@
 		}
 			#caja3{
 		
-		padding: 1%;
-		margin: 1%;
+		margin: 1% 1% 1%;
+		margin-bottom: 30px;
+		padding-bottom: 1%;
+		padding-left:1%;
+		padding-right:1%;
+		padding-top: 0px;
 		width: 95.3%;
 		background: grey ;
 		border: 1px solid black;
@@ -128,12 +188,18 @@
 
 		}
 
-	.h1{
+	.divbox{
 		position: relative;
-		text-align:center;
 		border: 1px solid black;
-		width: 30%;
+		width: 25%;
+		height: 30px;
+		left: 75.8%;
+		}
 
+
+		.h1{
+			text-align: center;
+			margin: 2px;
 		}
 
 }
